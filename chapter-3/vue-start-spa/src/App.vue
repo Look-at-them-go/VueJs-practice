@@ -10,7 +10,7 @@
      :page="pages[activePage]">
     </page-viewer> -->
 
-    <create-page :page-created="pageCreated">
+    <create-page @page-created="pageCreated">
 
     </create-page>
 
